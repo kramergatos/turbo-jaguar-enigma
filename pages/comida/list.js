@@ -1,3 +1,4 @@
+import { server } from '../../config'
 import Layout from '../../components/Layout'
 import Ingredients from '../../components/Comida/Ingredients'
 import styles from '../../styles/Home.module.css'
@@ -15,9 +16,8 @@ function List({data}) {
   )
 }
 export async function getServerSideProps() {
-  const res = await fetch(`http://localhost:3000/api/ingredients`)
+  const res = await fetch(`${server}/api/ingredients`)
   const data = await res.json()
-  console.log(data)
   return { props: {data} }
 }
 export default List

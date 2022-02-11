@@ -1,0 +1,73 @@
+.gallery{
+  background: #000;
+  clear: both;
+  color: #FFF;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 20px;
+  width: 100%;
+}
+.collection{
+  clear: both;
+  display: block;
+  float: left;
+  margin: 0 0 50px 0;
+  padding: 0;
+  width: 100%;
+}
+.empty_photo{
+  clear: both;
+  display: block;
+  float: left;
+  font: normal 100px/100px 'robotoregular', Helvetica, Arial;
+  margin: 50px 0 0 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+.empty_label{
+  clear: both;
+  display: block;
+  float: left;
+  font: normal 20px/30px 'robotoregular', Helvetica, Arial;
+  margin: 0 0 50px 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+.results{
+  clear: both;
+  display: block;
+  float: left;
+  font: normal 20px/30px 'robotoregular', Helvetica, Arial;
+  margin: 50px 0 50px 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+.wrap_photo{
+  display: block;
+  float: left;
+  height: 300px;
+  margin: 0 10px 10px 0;
+  padding: 0;
+  width: 300px;
+}
+.photo{
+  border-radius: 6px;
+  display: block;
+  float: left;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+}
+.wrap_pagination{
+  clear: both;
+  display: block;
+  float: left;
+  margin: 0 0 50px 0;
+  padding: 0 10px 0 0;
+  width: 100%;
+}

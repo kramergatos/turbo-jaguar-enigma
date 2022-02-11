@@ -1,0 +1,20 @@
+.headline{
+  background: #EA80FC;
+  background: -webkit-linear-gradient(to bottom right, #EA80FC 0%, #3F51B5 33%, #64FFDA 66%, #CCFF90 100%);
+  background: -moz-linear-gradient(to bottom right, #EA80FC 0%, #3F51B5 33%, #64FFDA 66%, #CCFF90 100%);
+  background: linear-gradient(to bottom right, #EA80FC 0%, #3F51B5 33%, #64FFDA 66%, #CCFF90 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  clear: both;
+  display: block;
+  font: normal 80px/80px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
+  margin: 0 auto;
+  padding: 100px;
+  width: calc(100% - 200px);
+  word-spacing: 30px;}
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}

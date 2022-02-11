@@ -1,0 +1,134 @@
+.form {
+  border-radius: 6px;
+  display: block;
+  float: left;
+  font: normal 16px/20px 'robotoregular', Helvetica, Arial;
+  margin: 50px 0;
+  padding: 10px;
+}
+.row {
+  clear: both;
+  display: block;
+  float: left;
+  margin: 10px 0;
+  width: 100%;
+}
+.label {
+  clear: both;
+  display: block;
+  float: left;
+  margin: 0 0 5px 0;
+  width: 100%;
+}
+.input_text {
+  background: #eceff1;
+  border: 2px #eceff1 solid;
+  border-radius: 6px;
+  clear: both;
+  display: block;
+  float: left;
+  font: normal 16px/20px 'robotoregular', Helvetica, Arial;
+  padding: 10px;
+  width: 300px;
+}
+.input_text:focus {
+  border: 2px #263238 solid;
+}
+.button_cancel{
+  background: none;
+  border: 1px #b0bec5 solid;
+  border-radius: 6px;
+  color: #b0bec5;
+  display: block;
+  float: left;
+  font: normal 12px/20px 'robotoregular', Helvetica, Arial;
+  padding: 10px 20px;
+}
+.button_save{
+  background: #eceff1;
+  border: none;
+  border-radius: 6px;
+  display: block;
+  float: right;
+  font: normal 16px/20px 'robotoregular', Helvetica, Arial;
+  padding: 10px 20px;
+}
+.button_cancel:hover,
+.button_save:hover{
+  background: #64ffda;
+  color: #263238;
+  cursor: pointer;
+}
+.button_cancel .fa,
+.button_save .fa{
+  display: block;
+  float: left;
+}
+.button_label{
+  display: block;
+  float: right;
+  margin: 0 0 0 5px;
+}
+
+/* NASA */
+.row{
+  clear: both;
+  display: block;
+  float: left;
+  margin: 0 0 10px 0;
+  padding: 0;
+  width: 100%;
+}
+.label{
+  clear: both;
+  display: block;
+  float: left;
+  font: normal 12px/22px 'robotoregular', Helvetica, Arial;
+  margin: 0 0 10px 0;
+  padding: 0;
+  width: 100%;
+}
+.button_select_option{
+  background: #eceff1;
+  border: none;
+  border-radius: 6px;
+  color: #263238;
+  cursor: pointer;
+  display: block;
+  float: left;
+  font: normal 12px/22px 'robotoregular', Helvetica, Arial;
+  margin: 0 10px 10px 0;
+  padding: 5px 10px;
+}
+.button_selected_option{
+  background: #64ffda;
+  border: none;
+  border-radius: 6px;
+  color: #263238;
+  cursor: pointer;
+  display: block;
+  float: left;
+  font: normal 12px/22px 'robotoregular', Helvetica, Arial;
+  margin: 0 10px 10px 0;
+  padding: 5px 10px;
+}
+.button_select_option:hover{
+  background: #64ffda;
+  border: none;
+  color: #263238;
+}
+.button_text{
+  display: block;
+  float: right;
+  margin: 0 0 0 10px;
+}
+.input_date{
+  background: #64ffda;
+  border: none;
+  border-radius: 6px;
+  color: #263238;
+  font: normal 12px/22px 'robotoregular', Helvetica, Arial;
+  margin: 0 10px 10px 0;
+  padding: 5px 10px;
+  width: 50px;
+}

@@ -1,0 +1,127 @@
+.footer {
+  background: #c1d5e0;
+  clear: both;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 30px 0;
+  position: relative;
+  width: 100%;
+}
+.logo {
+  background: #263238;
+  border-radius: 6px;
+  color: #FFF;
+  display: block;
+  float: left;
+  font: normal 12px/16px 'pantonblackcaps', Helvetica, Arial;
+  margin: 10px 0 10px 30px;
+  padding: 5px;
+}
+.made_with,
+.copyright {
+  clear: both;
+  color: #FFF;
+  display: block;
+  float: left;
+  font: normal 12px/22px 'robotoregular', Helvetica, Arial;
+  margin: 5px 0 0 0;
+  text-align: center;
+  width: 100%;
+}
+.nav_wrap {
+  display: block;
+  float: left;
+  margin: 0 0 30px 0;
+}
+.nav {
+  display: block;
+  float: left;
+  font: normal 14px/24px 'robotoregular', Helvetica, Arial;
+  margin: 0 0 0 50px;
+  width: 220px;
+}
+.nav a,
+.nav a:link,
+.nav a:active,
+.nav a:visited {
+  border-radius: 6px;
+  clear: both;
+  color: #263238;
+  display: block;
+  float: left;
+  margin: 5px 0;
+  padding: 0 10px;
+  text-decoration: none;
+}
+.nav a:hover {
+  background: #263238;
+  color: #FFF;
+  cursor: pointer;
+  text-decoration: none;
+}
+.nav a i{
+  display: block;
+  float: left;
+  margin: 0 10px 0 0;
+  padding: 4px 0 0 0;
+  text-align: center;
+  width: 20px;
+}
+.nav_header{
+  color: #263238;
+  display: block;
+  float: left;
+  font: bold 16px/26px 'robotoregular', Helvetica, Arial;
+  width: 100%;
+}
+.nav_social {
+  display: block;
+  float: left;
+  font: normal 22px/40px 'robotoregular', Helvetica, Arial;
+  margin: 0 0 0 50px;
+  width: 250px;
+}
+.nav_social a,
+.nav_social a:link,
+.nav_social a:active,
+.nav_social a:visited {
+  background: #FFF;
+  border-radius: 40px;
+  color: #263238;
+  display: block;
+  float: left;
+  height: 40px;
+  margin: 5px;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  width: 40px;
+}
+.nav_social a:hover {
+  background: #64ffda;
+  cursor: pointer;
+  text-decoration: none;
+}
+.button_top{
+  background: #FFF;
+  border-radius: 6px;
+  color: #263238;
+  display: block;
+  float: left;
+  font: normal 20px/40px 'robotoregular', Helvetica, Arial;
+  height: 40px;
+  margin: 5px;
+  padding: 0;
+  position: absolute;
+  right: 30px;
+  text-align: center;
+  text-decoration: none;
+  top: 30px;
+  width: 40px;
+}
+.button_top:hover {
+  background: #64ffda;
+  cursor: pointer;
+  text-decoration: none;
+}

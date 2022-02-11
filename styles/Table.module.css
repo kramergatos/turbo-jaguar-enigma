@@ -1,0 +1,125 @@
+.table{
+  clear: both;
+  display: block;
+  float: left;
+  margin: 50px 0;
+  padding: 0;
+  position: relative;
+  width: 600px;
+}
+.thead,
+.tfoot{
+  background: #c1d5e0;
+  border-radius: 6px;
+  clear: both;
+  color: #263238;
+  display: block;
+  float: left;
+  padding: 10px;
+  position: relative;
+  width: calc(100% - 20px);
+}
+.thead{
+  padding: 10px 10px 0 10px;
+}
+.tbody{
+  clear: both;
+  display: block;
+  float: left;
+  padding: 10px;
+  width: calc(100% - 20px);
+}
+.tfoot{
+  margin: 5px 0 0 0;
+}
+.tr{
+  clear: both;
+  display: block;
+  float: left;
+  font: normal 12px/30px 'robotoregular', Helvetica, Arial;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+.tbody .tr:nth-child(2n+2){
+  background: #eceff1;
+}
+.tbody .tr:hover{
+  background: #64ffda;
+}
+.td{
+  display: block;
+  float: left;
+  padding: 0 5px;
+  position: relative;
+}
+.td_pagination{
+  display: block;
+  float: right;
+  padding: 2px 5px;
+  position: relative;
+  width: 100%;
+}
+.td_200px{
+  display: block;
+  float: left;
+  padding: 2px 5px;
+  position: relative;
+  width: 200px;
+}
+.td_icon{
+  display: block;
+  float: left;
+  font-size: 6px;
+  overflow: hidden;
+  padding: 2px 15px 2px 5px;
+  position: relative;
+  width: 50px;
+}
+.td_number{
+  display: block;
+  float: left;
+  overflow: hidden;
+  padding: 2px 5px;
+  position: relative;
+  width: 80px;
+}
+.thead_title_td{
+  display: block;
+  float: left;
+  font: bold 20px 'robotoregular', Helvetica, Arial;
+  padding: 2px 5px;
+  position: relative;
+  width: 100%;
+}
+.add{
+  background: #FFF;
+  border: none;
+  border-radius: 6px;
+  color: #1c313a;
+  display: block;
+  float: left;
+  font: normal 10px 'robotoregular', Helvetica, Arial;
+  padding: 5px 10px;
+  position: absolute;
+  right: 0px;
+  top: -5px;
+}
+.add:hover{
+  background: #64ffda;
+  color: #1c313a;
+  cursor: pointer;
+}
+.pagination_label{
+  display: block;
+  float: right;
+  font: normal 10px/24px 'robotoregular', Helvetica, Arial;
+  margin: 0 10px;
+}
+.image{
+  display: block;
+  float: left;
+  height: 30px;
+  width: 30px;
+}

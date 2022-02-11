@@ -1,6 +1,6 @@
 import React from 'react'
 import classnames from 'classnames'
-import { usePagination, DOTS } from './usePagination'
+import { usePagination, DOTS } from './UsePagination'
 import styles from '../../styles/Table.module.css'
 const Pagination = props => {
   const {
@@ -34,6 +34,7 @@ const Pagination = props => {
           pagination_item_disabled: currentPage === 1
         })}
         onClick={onPrevious}
+        key="paginationleft"
       >
         <div className="arrow left">
           <i className="fas fa-arrow-left"></i>
@@ -49,6 +50,7 @@ const Pagination = props => {
               pagination_item_selected: pageNumber === currentPage
             })}
             onClick={() => onPageChange(pageNumber)}
+            key={'pagination'+pageNumber}
           >
             {pageNumber}
           </li>
@@ -59,6 +61,7 @@ const Pagination = props => {
           pagination_item_disabled: currentPage === lastPage
         })}
         onClick={onNext}
+        key="paginationright"
       >
         <div className="arrow right">
           <i className="fas fa-arrow-right"></i>

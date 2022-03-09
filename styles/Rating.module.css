@@ -1,0 +1,66 @@
+.form{
+  clear: both;
+  display: block;
+  float: left;
+  font: normal 14px/48px 'robotoregular', Arial;
+  margin: 32px 0 0 0;
+  padding: 0;
+  width: 100%;
+}
+.label{
+  clear: both;
+  color: #323232;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.input_area{
+  background: #FFF;
+  border: 1px #B4B4B4 solid;
+  border-radius: 6px;
+  color: #666;
+  clear: both;
+  display: block;
+  float: left;
+  height: 100px;
+  margin: 20px 0 0 0;
+  padding: 16px;
+  width: calc(100% - 32px);
+}
+.button{
+  background: #CF2AFF;
+  border: none;
+  border-radius: 6px;
+  color: #FFF;
+  display: block;
+  float: right;
+  font: normal 14px/48px 'robotoregular', Arial;
+  margin: 24px 0 0 0;
+  padding: 0 32px;
+}
+.stars{
+  clear: both;
+  display: block;
+  float: left;
+  margin: 8px 0 16px 0;
+  padding: 0;
+  width: 100%;
+}
+.star{
+  display: block;
+  float: left;
+  margin: 0 4px 0 0;
+  padding: 0;
+  width: 24px;
+}
+.score{
+  color: #323232;
+  display: block;
+  float: left;
+  font: bold 14px/14px 'robotoregular', Arial;
+  margin: 41px 0 0 0;
+  padding: 0;
+  width: 150px;
+}

@@ -1,0 +1,34 @@
+.board {
+  clear: both;
+  display: block;
+  float: left;
+  text-align: center;
+  width: 400px;
+}
+.square {
+  background: #ccc;
+  border-radius: 6px;
+  display: block;
+  float: left;
+  font: normal 30px/100px Helvetica, Arial;
+  height: 100px;
+  margin: 5px;
+  padding: 0;
+  width: 100px;
+}
+.label {
+  clear: both;
+  display: block;
+  float: left;
+  text-align: center;
+  width: 100%;
+}
+.button {
+  background: #000;
+  border-radius: 6px;
+  color: #fff;
+  display: block;
+  float: left;
+  margin: 10px;
+  padding: 5px 10px;
+}

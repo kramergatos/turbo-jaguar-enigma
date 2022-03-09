@@ -56,7 +56,7 @@ section{
   float: none;
   margin: 0 auto;
   padding: 0;
-  width: 1300px;}
+  width: 1200px;}
 .content_wrap_inside_pad{
   clear: both;
   display: block;
@@ -90,8 +90,7 @@ section{
   float: left;
 }
 .button_space{
-  clear: both;
-  margin: 10px 0;
+  margin: 10px;
 }
 .inline_link:link,
 .inline_link:active,
@@ -148,4 +147,14 @@ h1 img{
 }
 .pagination_item_disabled{
   display: none;
+}
+@media (max-width: 1200px) {
+  .content_wrap_outside{
+    width: 980px;
+  }
+}
+@media (max-width: 979px) {
+  .content_wrap_outside{
+    width: 100%;
+  }
 }

@@ -1,7 +1,12 @@
 # turbo-jaguar-enigma
-NodeJS, NextJS, ReactJS application for demo of a variety of functionalities.
+Demo app using NodeJS, NextJS, ReactJS, TypeScript
 
 ## Get Started
-yarn install
+yarn
 yarn dev
 yarn build
+
+## Project Initial Setup
+touch tsconfig.json  
+yarn add --dev typescript @types/react @types/node  
+yarn dev

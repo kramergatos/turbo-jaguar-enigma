@@ -11,11 +11,11 @@ export default function Counter() {
         <span className="button_label">Add</span>
       </div>
       <div className="button button_space" onClick={() => setValue((value >= 1 ? (value - 1) : value))}>
-        <i class="button_icon fa-solid fa-minus"></i>
+        <i className="button_icon fa-solid fa-minus"></i>
         <span className="button_label">Subtract</span>
       </div>
       <div className="button button_space" onClick={() => setValue(0)}>
-        <i class="button_icon fa-solid fa-xmark"></i>
+        <i className="button_icon fa-solid fa-xmark"></i>
         <span className="button_label">Reset</span>
       </div>
     </div>

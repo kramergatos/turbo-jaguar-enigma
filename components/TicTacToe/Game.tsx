@@ -2,6 +2,7 @@ import React, {useState} from "react"
 import Square from './Square'
 import styles from '../../styles/Game.module.css'
 export default function Game() {
+  //<div className="button button_space" onClick={() => setValue(0)}>
   const [board, setBoard] = useState(Array(9).fill(null))
   const [xIsNext, setXisNext] = useState(true)
   const winner = calculateWinner(board)
@@ -82,7 +83,7 @@ export default function Game() {
       <p>
         {winner ? "Winner: " + winner : "Next Player: " + (xIsNext ? "X" : "O")}
       </p>
-      <div className="button button_space" onClick={() => setValue(0)}>
+      <div className="button button_space">
         <i className="button_icon fa-solid fa-xmark"></i>
         <span className="button_label">Reset</span>
       </div>

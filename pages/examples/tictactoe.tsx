@@ -2,7 +2,7 @@ import Layout from '../../components/Layout'
 import Game from '../../components/TicTacToe/Game'
 function TicTacToe() {
   return (
-    <Layout>
+    <Layout pageTitle="Tic Tac Toe">
       <section>
         <div className="content_wrap_outside">
           <div className="content_wrap_inside_pad">

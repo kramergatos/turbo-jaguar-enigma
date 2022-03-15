@@ -2,7 +2,7 @@ import Layout from '../../components/Layout'
 import styles from '../../styles/Form.module.css'
 function Create() {
   return (
-    <Layout>
+    <Layout pageTitle="Create Ingredient">
       <section>
         <div className="content_wrap_outside">
           <div className="content_wrap_inside_pad">
@@ -19,7 +19,7 @@ function Create() {
                   id="title_en"
                   name="title_en"
                   spellCheck="true"
-                  tabIndex="0"
+                  tabIndex={1}
                   type="text"
                 />
               </div>
@@ -32,7 +32,7 @@ function Create() {
                   id="title_es"
                   name="title_es"
                   spellCheck="true"
-                  tabIndex="1"
+                  tabIndex={2}
                   type="text"
                 />
               </div>
@@ -45,7 +45,7 @@ function Create() {
                   id="quantity"
                   name="quantity"
                   spellCheck="false"
-                  tabIndex="2"
+                  tabIndex={3}
                   type="text"
                 />
               </div>
@@ -54,7 +54,7 @@ function Create() {
                   <i className="fa fa-times"/>
                   <span className={styles.button_label}>Cancel</span>
                 </button>
-                <button className={styles.button_save} type="submit">
+                <button className={styles.button_save} tabIndex={4} type="submit">
                   <i className="fa fa-save"/>
                   <span className={styles.button_label}>Save</span>
                 </button>

@@ -4,7 +4,7 @@ import Ingredients from '../../components/Comida/Ingredients'
 import styles from '../../styles/Home.module.css'
 function List({data}) {
   return (
-    <Layout>
+    <Layout pageTitle="List">
       <section>
         <div className="content_wrap_outside">
           <div className="content_wrap_inside_pad">

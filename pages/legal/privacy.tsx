@@ -2,7 +2,7 @@ import Layout from '../../components/Layout'
 import styles from '../../styles/Home.module.css'
 function Privacy() {
   return (
-    <Layout>
+    <Layout pageTitle="Privacy">
       <section>
         <div className="content_wrap_outside">
           <div className="content_wrap_inside_pad">

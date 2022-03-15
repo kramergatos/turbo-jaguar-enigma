@@ -18,7 +18,6 @@ export default function Form() {
     async function postData(url, data) {
       console.log('about to submit to backend... data=',data)
       const response = await fetch(url, {
-        headers: 'Accept',
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
         cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
         credentials: 'same-origin', // include, *same-origin, omit
@@ -32,7 +31,7 @@ export default function Form() {
       });
       console.log('submitting')
       let result = response.json()
-      getScore()
+      //getScore()
       return result; // parses JSON response into native JavaScript objects
     }
     postData(url, data)
@@ -52,8 +51,6 @@ export default function Form() {
           name="feedback"
           spellCheck="false"
           onChange={evt => setUserComment(evt.target.value)}
-          tabIndex="1"
-          type="text"
           value={userComment}
         />
       </div>

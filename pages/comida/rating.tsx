@@ -1,17 +1,16 @@
 import Layout from '../../components/Layout'
-import Count from '../../components/Examples/Counter'
-function Counter() {
+import Form from '../../components/Rating/Form'
+function Create() {
   return (
-    <Layout>
+    <Layout pageTitle="Rating">
       <section>
         <div className="content_wrap_outside">
           <div className="content_wrap_inside_pad">
-            <h1>Counter</h1>
-            <Count />
+            <Form />
           </div>
         </div>
       </section>
     </Layout>
   )
 }
-export default Counter
+export default Create

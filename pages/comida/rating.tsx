@@ -1,5 +1,5 @@
-import Layout from '../../components/Layout'
-import Form from '../../components/Rating/Form'
+import Layout from '../../components/Global/Layout'
+import Form from '../../components/Form/FormRecipeRating'
 function Create() {
   return (
     <Layout pageTitle="Rating">

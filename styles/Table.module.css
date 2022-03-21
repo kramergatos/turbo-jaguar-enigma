@@ -123,3 +123,30 @@
   height: 30px;
   width: 30px;
 }
+.pagination_container{
+  display: block;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+.pagination_item{
+  background: #FFF;
+  border: none;
+  border-radius: 6px;
+  color: #263238;
+  display: block;
+  float: left;
+  font: normal 10px 'robotoregular', Helvetica, Arial;
+  list-style: none;
+  margin: 0 5px;
+  padding: 5px 10px;
+}
+.pagination_item_selected,
+.pagination_item:hover{
+  background: #64ffda;
+  color: #263238;
+  cursor: pointer;
+}
+.pagination_item_disabled{
+  display: none;
+}

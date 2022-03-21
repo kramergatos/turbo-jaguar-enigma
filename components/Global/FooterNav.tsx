@@ -1,4 +1,4 @@
-import Social from './Social'
+import Social from '../Button/SocialNav'
 import styles from '../../styles/Footer.module.css'
 export default function Nav(props) {
   return (

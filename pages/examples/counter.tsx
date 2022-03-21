@@ -1,4 +1,4 @@
-import Layout from '../../components/Layout'
+import Layout from '../../components/Global/Layout'
 import Count from '../../components/Examples/Counter'
 function Counter() {
   return (

@@ -1,7 +1,7 @@
 import { server } from '../../config'
-import Layout from '../../components/Layout'
+import Layout from '../../components/Global/Layout'
 import Ingredients from '../../components/Comida/Ingredients'
-import styles from '../../styles/Home.module.css'
+import styles from '../../styles/Table.module.css'
 function List({data}) {
   return (
     <Layout pageTitle="List">

@@ -14,6 +14,20 @@ a {
 * {
   box-sizing: border-box;
 }
+:root{
+  --boxShadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  --colorDark: #263238;
+  --colorLight: #eceff1;
+  --colorGray: #78909c;
+  --colorRed: #ff1744;
+  --colorClickHover: #64ffda;
+  --borderRadius: 6px;
+  --fontLarge: normal 40px/50px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
+  --fontDefaultBold: bold 16px/26px 'robotoregular', Helvetica, Arial;
+  --fontDefault: normal 16px/26px 'robotoregular', Helvetica, Arial;
+  --fontSmall: normal 12px/22px 'robotoregular', Helvetica, Arial;
+  --fontSmallest: normal 10px/20px 'robotoregular', Helvetica, Arial;
+}
 /*!
  * Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -120,33 +134,6 @@ h1 img{
   float: left;
   height: 40px;
   margin: 0 10px 0 0;
-}
-.pagination_container{
-  display: block;
-  float: right;
-  margin: 0;
-  padding: 0;
-}
-.pagination_item{
-  background: #FFF;
-  border: none;
-  border-radius: 6px;
-  color: #263238;
-  display: block;
-  float: left;
-  font: normal 10px 'robotoregular', Helvetica, Arial;
-  list-style: none;
-  margin: 0 5px;
-  padding: 5px 10px;
-}
-.pagination_item_selected,
-.pagination_item:hover{
-  background: #64ffda;
-  color: #263238;
-  cursor: pointer;
-}
-.pagination_item_disabled{
-  display: none;
 }
 @media (max-width: 1200px) {
   .content_wrap_outside{

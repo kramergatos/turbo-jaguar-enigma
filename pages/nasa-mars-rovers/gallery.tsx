@@ -1,4 +1,4 @@
-import Layout from '../../components/Layout'
+import Layout from '../../components/Global/Layout'
 import Form from '../../components/Nasa/Form'
 import styles from '../../styles/Home.module.css'
 function Gallery({data}) {

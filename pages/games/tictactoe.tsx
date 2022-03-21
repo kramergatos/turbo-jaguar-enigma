@@ -1,4 +1,4 @@
-import Layout from '../../components/Layout'
+import Layout from '../../components/Global/Layout'
 import Game from '../../components/TicTacToe/Game'
 function TicTacToe() {
   return (

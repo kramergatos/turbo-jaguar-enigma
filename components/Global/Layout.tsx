@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
-import Header from './Header/Header'
-import Footer from './Footer/Footer'
+import Header from './Header'
+import Footer from './Footer'
 export default function Layout(props: {
   pageTitle: string,
   children: any

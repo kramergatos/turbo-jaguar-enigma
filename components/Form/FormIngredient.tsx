@@ -47,9 +47,9 @@ export default function FormIngredient() {
       }
     ]
   }
-  const [titleEn, setTitleEn] = useState("")
-  const [titleEs, setTitleEs] = useState("")
-  const [quantity, setQuantity] = useState("0")
+  const [titleEn, setTitleEn] = useState('')
+  const [titleEs, setTitleEs] = useState('')
+  const [quantity, setQuantity] = useState('0')
   const handleSubmit = (event) => {
     event.preventDefault()
     let payload = {

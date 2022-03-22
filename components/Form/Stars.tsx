@@ -22,7 +22,6 @@ export default function Stars(props: {
       <div className={styles.stars}>
         {[...Array(props.data.numStars)].map((event, index) => <Star data={index} starSelection={props.val} key={index} onClick={props.onClick} />)}
       </div>
-      <input type="hidden" value={props.val}/>
     </div>
   )
 }

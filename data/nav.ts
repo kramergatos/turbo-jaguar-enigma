@@ -16,33 +16,6 @@ export const dataNav = [
     subtitle: null,
     target: "_self",
     title: "Comida"
-  },
-  {
-    id: 2,
-    url: "/examples/counter",
-    icon: "fa-solid fa-arrow-up-9-1",
-    label: "Counter",
-    subtitle: null,
-    target: "_self",
-    title: "Counter"
-  },
-  {
-    id: 3,
-    url: "/games/tictactoe",
-    icon: "fa-solid fa-gamepad",
-    label: "Tic Tac Toe",
-    subtitle: null,
-    target: "_self",
-    title: "Tic Tac Toe"
-  },
-  {
-    id: 4,
-    url: "/nasa-mars-rovers/gallery",
-    icon: "fas fa-truck-monster",
-    label: "Tic Tac Toe",
-    subtitle: null,
-    target: "_self",
-    title: "Mars Rovers"
   }
 ]
 export const dataSocialLinks = [

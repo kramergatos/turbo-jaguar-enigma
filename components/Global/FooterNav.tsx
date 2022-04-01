@@ -19,14 +19,10 @@ export default function Nav(props) {
         </a>
       </nav>
       <nav className={styles.nav}>
-        <span className={styles.nav_header}>Project Demos</span>
+        <span className={styles.nav_header}>CMS</span>
         <a href="/comida/list">
           <i className="fa-solid fa-apple-whole"></i>
           Ingredients
-        </a>
-        <a href="/nasa-mars-rovers/gallery">
-          <i className="fas fa-truck-monster"></i>
-          NASA Mars Rovers Photos
         </a>
       </nav>
       <Social />
